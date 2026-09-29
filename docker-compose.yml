@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  aula_nginx:
+    build: .
+    container_name: aula_nginx
+    restart: unless-stopped
+    ports:
+      - "8080:80" 
