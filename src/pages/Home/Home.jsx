@@ -1,6 +1,6 @@
 
 import imagemHero from "../../assets/WhatsApp Image 2026-03-26 at 23.54.54 (2).jpeg"
-import Karate from "../../assets/Karate.png"
+import Karate from "../../assets/karate.png"
 
 import "./HomeStyle.css"
 
