@@ -1,5 +1,5 @@
-# Estágio 1: Build do React
-FROM node:18-alpine AS build
+# Estágio 1: Build do React (Atualizado para o Node 22)
+FROM node:22-alpine AS build
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
